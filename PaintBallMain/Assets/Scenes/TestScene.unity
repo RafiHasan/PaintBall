@@ -637,6 +637,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sensitivityX: 8
   sensitivityY: 0.5
+  playerCamera: {fileID: 330585546}
+  xClamp: 85
 --- !u!114 &2102344480
 MonoBehaviour:
   m_ObjectHideFlags: 0
