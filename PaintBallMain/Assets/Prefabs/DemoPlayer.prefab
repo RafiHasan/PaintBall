@@ -118,6 +118,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e16d1d6e34bb3d4aa291a4e7a40b212, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  weapon: {fileID: 0}
 --- !u!114 &2497556554176372054
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,6 +144,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 823338f37ade9dd4c8f129a6e1a964e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
+  xSensitivity: 30
+  ySensitivity: 30
 --- !u!1 &1638926581120689994
 GameObject:
   m_ObjectHideFlags: 0
