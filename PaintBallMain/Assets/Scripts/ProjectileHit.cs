@@ -11,7 +11,8 @@ public class ProjectileHit : MonoBehaviour
         health -= damage;
         if(health < -0)
         {
-            Die();
+            //Die();
+            Debug.Log("hit!");
         }
     }
 
