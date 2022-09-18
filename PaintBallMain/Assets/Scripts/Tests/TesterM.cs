@@ -18,7 +18,7 @@ public class TesterM : MonoBehaviour
 
         GenerateMesh(vertices, uv, triangles);
 
-        GetComponent<MeshFilter>().mesh = mesh;
+        
 
 
     }
@@ -30,6 +30,7 @@ public class TesterM : MonoBehaviour
         mesh.triangles = triangles;
 
         mesh.MarkDynamic();
+        GetComponent<MeshFilter>().mesh = mesh;
     }
 
     private static void DefinePolygon(Vector3[] vertices, Vector2[] uv, int[] triangles)
