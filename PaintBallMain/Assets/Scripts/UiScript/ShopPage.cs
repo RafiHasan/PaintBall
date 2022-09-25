@@ -15,4 +15,55 @@ public class ShopPage : MonoBehaviour
     {
         
     }
+
+    public void CancelBtnOnClick()
+    {
+
+    }
+    public void HomeBtnOnClick()
+    {
+
+    }
+    public void CoinFildBtnOnClick()
+    {
+
+    }
+    public void GemsFildBtnOnClick()
+    {
+
+    }
+    public void GunBtnOnClick()
+    {
+
+    }
+    public void ImgBtnOnClick()
+    {
+
+    }
+    public void FramBtnOnClick()
+    {
+
+    }
+    public void CoinBtnOnClick()
+    {
+
+    }
+    public void GemsBtnOnClick()
+    {
+
+    }
+    public void ShopBtnOnClick()
+    {
+
+    }
+    public void ShopBtn2OnClick()
+    {
+
+    }
+    public void ShopBtn3OnClick()
+    {
+
+    }
+
+
 }

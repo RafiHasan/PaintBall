@@ -434,6 +434,7 @@ GameObject:
   - component: {fileID: 69002296449776350}
   - component: {fileID: 69002296449776351}
   - component: {fileID: 69002296449776320}
+  - component: {fileID: 4144473605646497296}
   - component: {fileID: 69002296449776321}
   m_Layer: 5
   m_Name: HomePage
@@ -514,6 +515,18 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
+--- !u!114 &4144473605646497296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 69002296449776322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe74792e1dd4b3140983e7350db1230e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &69002296449776321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,7 +665,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 69002296490626262}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4144473605646497296}
+        m_TargetAssemblyTypeName: HomePage, Assembly-CSharp
+        m_MethodName: ProfileBtnOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &69002296502607280
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,7 +914,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 69002296540041723}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4144473605646497296}
+        m_TargetAssemblyTypeName: HomePage, Assembly-CSharp
+        m_MethodName: CoinFildBtnOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &69002296612848167
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,7 +1151,7 @@ GameObject:
   - component: {fileID: 69002296982981354}
   - component: {fileID: 69002296982981355}
   m_Layer: 5
-  m_Name: ButtonFild (1)
+  m_Name: ButtonFild2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1222,7 +1259,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 69002296982981354}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4144473605646497296}
+        m_TargetAssemblyTypeName: HomePage, Assembly-CSharp
+        m_MethodName: BtnFild2OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &69002297123723220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1422,7 +1471,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 69002297173458069}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4144473605646497296}
+        m_TargetAssemblyTypeName: HomePage, Assembly-CSharp
+        m_MethodName: GemsFildBtnOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &69002297222520501
 GameObject:
   m_ObjectHideFlags: 0
@@ -1782,7 +1843,7 @@ GameObject:
   - component: {fileID: 69002297771832878}
   - component: {fileID: 69002297771832879}
   m_Layer: 5
-  m_Name: ButtonFild (2)
+  m_Name: ButtonFild3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1890,7 +1951,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 69002297771832878}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4144473605646497296}
+        m_TargetAssemblyTypeName: HomePage, Assembly-CSharp
+        m_MethodName: BtnFild3OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &69002297828462020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2396,4 +2469,16 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 69002298141388003}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4144473605646497296}
+        m_TargetAssemblyTypeName: HomePage, Assembly-CSharp
+        m_MethodName: BtnFildOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
